@@ -41,13 +41,16 @@ const SideCart = ({ watchTime }) => {
         20
       </button>
       <button
-        onClick={() => handleBreakTime(15)}
+        onClick={() => handleBreakTime(25)}
         className="w-25 btn-circle m-1 bg-danger btn btn-info"
       >
         25
       </button>
       <input type="text" value={breakTime} disabled />
-      <button onClick={handleComplete} className="mt-5 btn btn-info w-100">
+      <button
+        onClick={handleComplete}
+        className="mt-5 btn btn-info w-100"
+      >
         Complete
       </button>
     </div>

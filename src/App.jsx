@@ -6,7 +6,7 @@ import Home from "./components/Home/Home";
 import SideCart from "./components/SideCart/SideCart";
 import Contact from "./components/Contact/Contact";
 import { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [watchTime, setWatchTime] = useState(0);
@@ -37,7 +37,7 @@ function App() {
         </div>
       </div>
       <Contact></Contact>
-      <ToastContainer></ToastContainer>
+      <ToastContainer />
     </div>
   );
 }
