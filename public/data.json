@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "movieName": "The Dark Knight",
       "watchTime": 152,
       "description": "Gotham's protector battles the Joker's chaos.",
@@ -8,6 +9,7 @@
       "imdbRating": 9.0
     },
     {
+      "id": 2,
       "movieName": "The Shawshank Redemption",
       "watchTime": 142,
       "description": "Wrongfully imprisoned men bond over time.",
@@ -16,6 +18,7 @@
       "imdbRating": 9.3
     },
     {
+      "id": 3,
       "movieName": "Inception",
       "watchTime": 148,
       "description": "Dream thieves venture into a man's subconscious.",
@@ -24,6 +27,7 @@
       "imdbRating": 8.8
     },
     {
+      "id": 4,
       "movieName": "Forrest Gump",
       "watchTime": 142,
       "description": "Simple man becomes unwitting participant in historic events.",
@@ -32,6 +36,34 @@
       "imdbRating": 8.8
     },
     {
+      "id": 5,
+      "movieName": "The Godfather",
+      "watchTime": 175,
+      "description": "Mafia family fights for control of organized crime.",
+      "poster": "https://i.ebayimg.com/images/g/dM0AAOSw82Bik6XS/s-l500.jpg",
+      "category": "Crime/Drama",
+      "imdbRating": 9.2
+    },
+    {
+      "id": 6,
+      "movieName": "The Godfather",
+      "watchTime": 175,
+      "description": "Mafia family fights for control of organized crime.",
+      "poster": "https://i.ebayimg.com/images/g/dM0AAOSw82Bik6XS/s-l500.jpg",
+      "category": "Crime/Drama",
+      "imdbRating": 9.2
+    },
+    {
+      "id": 7,
+      "movieName": "The Godfather",
+      "watchTime": 175,
+      "description": "Mafia family fights for control of organized crime.",
+      "poster": "https://i.ebayimg.com/images/g/dM0AAOSw82Bik6XS/s-l500.jpg",
+      "category": "Crime/Drama",
+      "imdbRating": 9.2
+    },
+    {
+      "id": 8,
       "movieName": "The Godfather",
       "watchTime": 175,
       "description": "Mafia family fights for control of organized crime.",

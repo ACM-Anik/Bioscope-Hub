@@ -17,6 +17,7 @@ const Home = ({ handleWatchTime }) => {
       <div className="movie-container row ">
         {movies.map((movie) => (
           <SingleCard
+            key={movie.id}
             handleWatchTime={handleWatchTime}
             movie={movie}
           ></SingleCard>
