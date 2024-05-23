@@ -3,7 +3,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
-import SideCart from "./components/SideCart/SideCart";
+import Contact from "./components/Contact/Contact";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 
@@ -32,6 +32,7 @@ function App() {
           <Home handleWatchTime={handleWatchTime}></Home>
         </div>
       </div>
+      <Contact></Contact>
       <ToastContainer></ToastContainer>
     </div>
   );
