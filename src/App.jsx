@@ -32,6 +32,9 @@ function App() {
           <Home handleWatchTime={handleWatchTime}></Home>
         </div>
       </div>
+      <div className="sideCart col-md-4 card">
+        <SideCart watchTime={watchTime}></SideCart>
+      </div>
       <Contact></Contact>
       <ToastContainer></ToastContainer>
     </div>
