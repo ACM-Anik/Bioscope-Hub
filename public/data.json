@@ -13,7 +13,7 @@
       "movieName": "The Shawshank Redemption",
       "watchTime": 142,
       "description": "Wrongfully imprisoned men bond over time.",
-      "poster": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71JxA6I+sgL._AC_SL1000_.jpg",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX190_CR0,2,190,281_.jpg",
       "category": "Drama",
       "imdbRating": 9.3
     },
@@ -31,7 +31,7 @@
       "movieName": "Forrest Gump",
       "watchTime": 142,
       "description": "Simple man becomes unwitting participant in historic events.",
-      "poster": "https://i.ebayimg.com/images/g/j1gAAOSw52xiN6k8/s-l500.jpg",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMbrFbfuIw1T_tsoI6DNk0Ao8_ihRHirP2gW_4phSKbmV2oMPuXRSYq4mwroz9MaYcl1Hn",
       "category": "Drama/Comedy",
       "imdbRating": 8.8
     },
@@ -55,21 +55,12 @@
     },
     {
       "id": 7,
-      "movieName": "The Godfather",
-      "watchTime": 175,
-      "description": "Mafia family fights for control of organized crime.",
-      "poster": "https://i.ebayimg.com/images/g/dM0AAOSw82Bik6XS/s-l500.jpg",
-      "category": "Crime/Drama",
-      "imdbRating": 9.2
-    },
-    {
-      "id": 8,
-      "movieName": "The Godfather",
-      "watchTime": 175,
-      "description": "Mafia family fights for control of organized crime.",
-      "poster": "https://i.ebayimg.com/images/g/dM0AAOSw82Bik6XS/s-l500.jpg",
-      "category": "Crime/Drama",
-      "imdbRating": 9.2
+      "movieName": "The Shawshank Redemption",
+      "watchTime": 142,
+      "description": "Wrongfully imprisoned men bond over time.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+      "category": "Drama",
+      "imdbRating": 9.3
     }
-  ]
+]
   
