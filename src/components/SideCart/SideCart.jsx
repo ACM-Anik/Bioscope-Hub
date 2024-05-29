@@ -29,7 +29,7 @@ const SideCart = ({ watchTime }) => {
         const sum = previousWatchTime - getBreakTime;
         localStorage.setItem("watchTime", sum);
         setTime(sum);
-        toast(`Reduced the time by ${getBreakTime} minutes!`);
+        toast(`Reduced the watch time by ${getBreakTime} minutes!`);
       }
     }
   };

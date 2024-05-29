@@ -1,4 +1,5 @@
 import React from "react";
+import contactPng from "../../assets/login.png";
 
 const Contact = () => {
   return (
@@ -34,8 +35,8 @@ const Contact = () => {
           <div className="w-100">
             <img
               className="w-100"
-              src="https://i.ibb.co/M1YLj7g/login.png"
-              alt=""
+              src={contactPng}
+              alt="posterPng"
             />
           </div>
         </div>
