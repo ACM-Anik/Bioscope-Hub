@@ -3,9 +3,9 @@ import React from "react";
 const SingleCard = ({ movie, handleWatchTime }) => {
   //   console.log(movie);
   return (
-    <div className="movie-card card text-center w-50 h-50 m-auto col-md-6">
+    <div className="movie-card card text-center w-50 h-50 w-md-25 h-md-25 m-auto col-md-6">
       <div className="movie-poster w-25 m-auto">
-        <img className="w-75" src={movie.poster} alt="" />
+        <img className="w-75" src={movie.poster} alt="Poster" />
       </div>
       <h3>{movie.movieName}</h3>
       <p>{movie.description}</p>
@@ -16,7 +16,7 @@ const SingleCard = ({ movie, handleWatchTime }) => {
       <button
         onClick={() => handleWatchTime(movie.watchTime)}
         className="btn btn-info w-75 m-auto"
-      >
+      > 
         Book Now
       </button>
     </div>

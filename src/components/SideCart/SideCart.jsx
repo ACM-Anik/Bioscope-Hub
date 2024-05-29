@@ -9,7 +9,11 @@ const SideCart = ({ watchTime }) => {
     const getWatchTimeFromStorage = localStorage.getItem("watchTime");
     setTime(getWatchTimeFromStorage);
     const getBreakTime = localStorage.getItem("breakTime");
-    setBreakTime(getBreakTime);
+    if (getBreakTime) {
+      setBreakTime(getBreakTime);
+    }else{
+      setBreakTime(0);
+    }
   }, [watchTime]);
 
   const handleBreakTime = (bt) => {
