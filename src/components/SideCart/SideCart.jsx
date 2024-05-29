@@ -26,10 +26,10 @@ const SideCart = ({ watchTime }) => {
     if (getBreakTime) {
       const previousWatchTime = JSON.parse(localStorage.getItem("watchTime"));
       if (previousWatchTime) {
-        const sum = previousWatchTime + getBreakTime;
+        const sum = previousWatchTime - getBreakTime;
         localStorage.setItem("watchTime", sum);
         setTime(sum);
-        toast("Wow so easily done!");
+        toast(`Reduced the time by ${getBreakTime} minutes!`);
       }
     }
   };
