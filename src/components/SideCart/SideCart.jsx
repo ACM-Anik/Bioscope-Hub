@@ -11,7 +11,7 @@ const SideCart = ({ watchTime }) => {
     const getBreakTime = localStorage.getItem("breakTime");
     if (getBreakTime) {
       setBreakTime(getBreakTime);
-    }else{
+    } else {
       setBreakTime(0);
     }
   }, [watchTime]);
@@ -20,8 +20,18 @@ const SideCart = ({ watchTime }) => {
     localStorage.setItem("breakTime", bt);
     setBreakTime(bt);
   };
+
   const handleComplete = () => {
-    toast("Wow so easily done!");
+    const getBreakTime = JSON.parse(localStorage.getItem("breakTime"));
+    if (getBreakTime) {
+      const previousWatchTime = JSON.parse(localStorage.getItem("watchTime"));
+      if (previousWatchTime) {
+        const sum = previousWatchTime + getBreakTime;
+        localStorage.setItem("watchTime", sum);
+        setTime(sum);
+        toast("Wow so easily done!");
+      }
+    }
   };
 
   return (
