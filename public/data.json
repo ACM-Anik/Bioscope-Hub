@@ -1,66 +1,132 @@
 [
-    {
+  {
       "id": 1,
       "movieName": "The Dark Knight",
       "watchTime": 152,
       "description": "Gotham's protector battles the Joker's chaos.",
       "poster": "https://c8.alamy.com/comp/C2WJYB/the-dark-knight-poster-display-at-the-arclight-theater-los-angeles-C2WJYB.jpg",
       "category": "Action/Crime",
-      "imdbRating": 9.0
-    },
-    {
+      "imdbRating": 9.0,
+      "director": "Christopher Nolan"
+  },
+  {
       "id": 2,
       "movieName": "The Shawshank Redemption",
       "watchTime": 142,
       "description": "Wrongfully imprisoned men bond over time.",
       "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX190_CR0,2,190,281_.jpg",
       "category": "Drama",
-      "imdbRating": 9.3
-    },
-    {
+      "imdbRating": 9.3,
+      "director": "Frank Darabont"
+  },
+  {
       "id": 3,
       "movieName": "Inception",
       "watchTime": 148,
       "description": "Dream thieves venture into a man's subconscious.",
       "poster": "https://images-na.ssl-images-amazon.com/images/I/71RotCbGTML._AC_UL600_SR600,600_.jpg",
       "category": "Action/Sci-Fi",
-      "imdbRating": 8.8
-    },
-    {
+      "imdbRating": 8.8,
+      "director": "Christopher Nolan"
+  },
+  {
       "id": 4,
       "movieName": "Forrest Gump",
       "watchTime": 142,
       "description": "Simple man becomes unwitting participant in historic events.",
       "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMbrFbfuIw1T_tsoI6DNk0Ao8_ihRHirP2gW_4phSKbmV2oMPuXRSYq4mwroz9MaYcl1Hn",
       "category": "Drama/Comedy",
-      "imdbRating": 8.8
-    },
-    {
+      "imdbRating": 8.8,
+      "director": "Robert Zemeckis"
+  },
+  {
       "id": 5,
       "movieName": "The Godfather",
       "watchTime": 175,
       "description": "Mafia family fights for control of organized crime.",
       "poster": "https://i.ebayimg.com/images/g/dM0AAOSw82Bik6XS/s-l500.jpg",
       "category": "Crime/Drama",
-      "imdbRating": 9.2
-    },
-    {
+      "imdbRating": 9.2,
+      "director": "Francis Ford Coppola"
+  },
+  {
       "id": 6,
-      "movieName": "The Godfather",
-      "watchTime": 175,
-      "description": "Mafia family fights for control of organized crime.",
-      "poster": "https://i.ebayimg.com/images/g/dM0AAOSw82Bik6XS/s-l500.jpg",
-      "category": "Crime/Drama",
-      "imdbRating": 9.2
-    },
-    {
+      "movieName": "Memento",
+      "watchTime": 113,
+      "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/81V%2BdF7uRDL._AC_UL600_SR600,600_.jpg",
+      "category": "Thriller/Mystery",
+      "imdbRating": 8.4,
+      "director": "Christopher Nolan"
+  },
+  {
       "id": 7,
-      "movieName": "The Shawshank Redemption",
-      "watchTime": 142,
-      "description": "Wrongfully imprisoned men bond over time.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX190_CR0,2,190,281_.jpg",
-      "category": "Drama",
-      "imdbRating": 9.3
-    }
+      "movieName": "The Dark Knight",
+      "watchTime": 152,
+      "description": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham City into anarchy.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/81AJdOIEI2L._AC_UL600_SR600,600_.jpg",
+      "category": "Action/Crime",
+      "imdbRating": 9.0,
+      "director": "Christopher Nolan"
+  },
+  {
+      "id": 8,
+      "movieName": "Inception",
+      "watchTime": 148,
+      "description": "Dream thieves venture into a man's subconscious.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/71RotCbGTML._AC_UL600_SR600,600_.jpg",
+      "category": "Action/Sci-Fi",
+      "imdbRating": 8.8,
+      "director": "Christopher Nolan"
+  },
+  {
+      "id": 9,
+      "movieName": "Interstellar",
+      "watchTime": 169,
+      "description": "A group of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/91kFYg4fX3L._AC_UL600_SR600,600_.jpg",
+      "category": "Adventure/Drama",
+      "imdbRating": 8.6,
+      "director": "Christopher Nolan"
+  },
+  {
+      "id": 10,
+      "movieName": "Dunkirk",
+      "watchTime": 106,
+      "description": "Allied soldiers from Belgium, the British Empire, and France are surrounded by the German army and evacuated during a fierce battle in World War II.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/81XHavFqnPL._AC_UL600_SR600,600_.jpg",
+      "category": "War/Drama",
+      "imdbRating": 7.9,
+      "director": "Christopher Nolan"
+  },
+  {
+      "id": 11,
+      "movieName": "The Prestige",
+      "watchTime": 130,
+      "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/81b3R8WXtvL._AC_UL600_SR600,600_.jpg",
+      "category": "Drama/Thriller",
+      "imdbRating": 8.5,
+      "director": "Christopher Nolan"
+  },
+  {
+      "id": 12,
+      "movieName": "Tenet",
+      "watchTime": 150,
+      "description": "Armed with only one word, Tenet, a protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/71P1oZI7bLL._AC_UL600_SR600,600_.jpg",
+      "category": "Action/Sci-Fi",
+      "imdbRating": 7.4,
+      "director": "Christopher Nolan"
+  },
+  {
+      "id": 13,
+      "movieName": "Batman Begins",
+      "watchTime": 140,
+      "description": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/91rbPeyw-NL._AC_UL600_SR600,600_.jpg",
+      "category": "Action/Adventure",
+      "imdbRating": 8.2,
+      "director": "Christopher Nolan"
+  }
 ]
-  

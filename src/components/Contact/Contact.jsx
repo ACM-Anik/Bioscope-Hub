@@ -27,7 +27,7 @@ const Contact = () => {
       <div className="row d-flex align-items-center">
         <div className="col-md-6">
           <h1>Contact with Us</h1>
-          <form className="input-box" ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail} className="input-box">
             <input
               className="w-75 p-3 m-1"
               type="text"
@@ -43,16 +43,15 @@ const Contact = () => {
             />
             <br />
             <input
-              className="w-75 p-5 m-2"
+              className="w-75 px-3 py-5 m-1"
               type="text"
               name="message"
               placeholder="Type your message "
             />
             <br />
-            <input type="submit" value="Send" />
-            {/* <button class="btn btn-info w-75 p-3 font-weight-bold text-uppercase">
+            <button type="submit" class="btn btn-info w-75 p-3 font-weight-bold text-uppercase">
               Send Email
-            </button> */}
+            </button>
           </form>
         </div>
         {/* Side Poster------- */}
