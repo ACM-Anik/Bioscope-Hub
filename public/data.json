@@ -54,29 +54,9 @@
       "movieName": "Memento",
       "watchTime": 113,
       "description": "A man with short-term memory loss attempts to track down his wife's murderer.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/I/81V%2BdF7uRDL._AC_UL600_SR600,600_.jpg",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Memento_poster.jpg/220px-Memento_poster.jpg",
       "category": "Thriller/Mystery",
       "imdbRating": 8.4,
-      "director": "Christopher Nolan"
-  },
-  {
-      "id": 7,
-      "movieName": "The Dark Knight",
-      "watchTime": 152,
-      "description": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham City into anarchy.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/I/81AJdOIEI2L._AC_UL600_SR600,600_.jpg",
-      "category": "Action/Crime",
-      "imdbRating": 9.0,
-      "director": "Christopher Nolan"
-  },
-  {
-      "id": 8,
-      "movieName": "Inception",
-      "watchTime": 148,
-      "description": "Dream thieves venture into a man's subconscious.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/I/71RotCbGTML._AC_UL600_SR600,600_.jpg",
-      "category": "Action/Sci-Fi",
-      "imdbRating": 8.8,
       "director": "Christopher Nolan"
   },
   {
@@ -94,7 +74,7 @@
       "movieName": "Dunkirk",
       "watchTime": 106,
       "description": "Allied soldiers from Belgium, the British Empire, and France are surrounded by the German army and evacuated during a fierce battle in World War II.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/I/81XHavFqnPL._AC_UL600_SR600,600_.jpg",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/1/15/Dunkirk_Film_poster.jpg",
       "category": "War/Drama",
       "imdbRating": 7.9,
       "director": "Christopher Nolan"
@@ -104,7 +84,7 @@
       "movieName": "The Prestige",
       "watchTime": 130,
       "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/I/81b3R8WXtvL._AC_UL600_SR600,600_.jpg",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Prestige_poster.jpg/220px-Prestige_poster.jpg",
       "category": "Drama/Thriller",
       "imdbRating": 8.5,
       "director": "Christopher Nolan"
@@ -114,7 +94,7 @@
       "movieName": "Tenet",
       "watchTime": 150,
       "description": "Armed with only one word, Tenet, a protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/I/71P1oZI7bLL._AC_UL600_SR600,600_.jpg",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Tenet_movie_poster.jpg/220px-Tenet_movie_poster.jpg",
       "category": "Action/Sci-Fi",
       "imdbRating": 7.4,
       "director": "Christopher Nolan"
@@ -124,7 +104,7 @@
       "movieName": "Batman Begins",
       "watchTime": 140,
       "description": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/I/91rbPeyw-NL._AC_UL600_SR600,600_.jpg",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Batman_Begins_Poster.jpg/220px-Batman_Begins_Poster.jpg",
       "category": "Action/Adventure",
       "imdbRating": 8.2,
       "director": "Christopher Nolan"
