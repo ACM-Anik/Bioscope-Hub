@@ -37,8 +37,8 @@ const SideCart = ({ watchTime }) => {
   };
 
   return (
-    <div className="text-center">
-      <h1>My Cart</h1>
+    <div className="text-center border rounded p-4">
+      <h1 className="my-3">My Cart</h1>
       <div className="mt-5 text-center">
         <p>total watch time</p>
         <input type="text" value={time} disabled />

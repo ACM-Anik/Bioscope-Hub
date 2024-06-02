@@ -17,7 +17,7 @@ const Home = ({ handleWatchTime }) => {
 
   return (
     <>
-      <div className="movie-container row g-2">
+      <div className="movie-container row gap-3 px-3">
         {movies.slice(0, visibleMovies).map((movie) => (
           <SingleCard
             key={movie.id}

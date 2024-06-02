@@ -28,11 +28,11 @@ function App() {
       <div className="header m-auto my-3">
         <Header></Header>
       </div>
-      <div className="main row m-0">
+      <div className="main row m-auto">
         <div className="home-container col-md-8">
           <Home handleWatchTime={handleWatchTime}></Home>
         </div>
-        <div className="sideCart col-md-4 card">
+        <div className="sideCart col-md-4">
           <SideCart watchTime={watchTime}></SideCart>
         </div>
       </div>

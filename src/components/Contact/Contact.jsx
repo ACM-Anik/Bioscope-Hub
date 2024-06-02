@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="mt-5">
+    <div className="mt-5 text-center">
       <div className="d-md-flex  align-items-center">
         <div className="col-md-6">
           <h1>Contact with Us</h1>
