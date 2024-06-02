@@ -2,19 +2,22 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
-      <nav className="navbar navbar-light bg-light justify-content-between">
+    <>
+      <nav className="navbar navbar-light bg-light justify-content-between p-2">
         <a className="navbar-brand ">Booking Bioscope</a>
-        <form className="form-inline">
-          <input
-            className="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-        </form>
+        <div className="d-flex justify-content-between">
+          <button className="border-0" href="/contact">Contact</button>
+          <form className="form-inline">
+            <input
+              className="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
       </nav>
-    </div>
+    </>
   );
 };
 
