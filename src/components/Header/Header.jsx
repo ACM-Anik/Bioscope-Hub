@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-light bg-light justify-content-between p-2">
+      <nav className="navbar navbar-light bg-light justify-content-between p-2 rounded">
         <a className="navbar-brand ">Booking Bioscope</a>
         <form className="form-inline">
           <input

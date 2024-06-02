@@ -16,11 +16,13 @@ const SideCart = ({ watchTime }) => {
     }
   }, [watchTime]);
 
+  // Adding break time:-
   const handleBreakTime = (bt) => {
     localStorage.setItem("breakTime", bt);
     setBreakTime(bt);
   };
 
+  // Break time's complete function:-
   const handleComplete = () => {
     const getBreakTime = JSON.parse(localStorage.getItem("breakTime"));
     if (getBreakTime) {
@@ -35,7 +37,7 @@ const SideCart = ({ watchTime }) => {
   };
 
   return (
-    <div>
+    <div className="text-center">
       <h1>My Cart</h1>
       <div className="mt-5 text-center">
         <p>total watch time</p>
@@ -60,10 +62,10 @@ const SideCart = ({ watchTime }) => {
       >
         25
       </button>
-      <input type="text" value={breakTime} disabled />
+      <input className="my-3" type="text" value={breakTime} disabled />
       <button
         onClick={handleComplete}
-        className="mt-5 btn btn-info w-100"
+        className="mt-2 btn btn-info w-100"
       >
         Complete
       </button>

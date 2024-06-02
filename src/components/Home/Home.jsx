@@ -16,7 +16,7 @@ const Home = ({ handleWatchTime }) => {
   };
 
   return (
-    <div>
+    <>
       <div className="movie-container row g-2">
         {movies.slice(0, visibleMovies).map((movie) => (
           <SingleCard
@@ -27,13 +27,13 @@ const Home = ({ handleWatchTime }) => {
         ))}
       </div>
       {visibleMovies < movies.length && (
-        <div className="text-center mt-4">
+        <div className="text-center my-4">
           <button className="btn btn-info" onClick={handleSeeMore}>
             See More
           </button>
         </div>
       )}
-    </div>
+    </>
   );
 };
 

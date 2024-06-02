@@ -24,7 +24,7 @@ const Contact = () => {
 
   return (
     <div className="mt-5">
-      <div className="row d-flex align-items-center">
+      <div className="d-md-flex  align-items-center">
         <div className="col-md-6">
           <h1>Contact with Us</h1>
           <form ref={form} onSubmit={sendEmail} className="input-box">
